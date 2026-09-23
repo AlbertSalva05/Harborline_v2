@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Harborline — cover every load before lunch</title>
+<meta name="description" content="Harborline — freight operations software for regional brokerages. Quote, cover, and confirm every load from one board." />
+<meta property="og:title" content="Harborline — cover every load before lunch" />
+<meta property="og:description" content="Load triage, carrier vetting, and rate confirmations in one operations board for regional freight brokerages." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="theme-color" content="#14181D" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&amp;family=Geist+Mono:wght@400;500&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css?v=2" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Harborline","applicationCategory":"BusinessApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"89","priceCurrency":"USD"},"description":"Freight operations software for regional brokerages: load triage, carrier vetting, rate confirmations."}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="top">
+  <div class="nav__bar wrap">
+    <a class="nav__brand" href="#top"><span class="mark" aria-hidden="true"></span>Harborline</a>
+    <nav class="nav__links" aria-label="Main">
+      <a href="#platform">Platform</a>
+      <a href="#vetting">Carrier vetting</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#customers">Customers</a>
+    </nav>
+    <div class="nav__actions">
+      <a class="nav__signin" href="#pricing">Sign in</a>
+      <a class="btn btn--white btn--sm" href="#pricing">Start pilot</a>
+      <button class="nav__toggle" type="button" id="navToggle" aria-expanded="false" aria-controls="navDrawer" aria-label="Open main menu">
+        <span class="nav__bars" aria-hidden="true"></span>
+      </button>
+    </div>
+  </div>
+  <nav class="nav__drawer" id="navDrawer" aria-label="Main" hidden>
+    <ul class="wrap">
+      <li><a href="#platform">Platform</a></li>
+      <li><a href="#vetting">Carrier vetting</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#customers">Customers</a></li>
+      <li class="nav__drawer-signin"><a class="btn btn--ghost" href="#pricing">Sign in</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="hero__inner wrap">
+      <div class="hero__copy">
+        <span class="overline overline--dark">Built for regional brokerages</span>
+        <h1 class="hero__title">Cover every load before lunch.</h1>
+        <p class="hero__body">Harborline pulls your load board, carrier packets, and rate confirmations onto one operations board — so dispatchers stop retyping and start covering freight.</p>
+        <div class="hero__actions">
+          <a class="btn btn--white btn--lg" href="#pricing">Start a 14-day pilot</a>
+          <a class="btn btn--ghost btn--lg" href="#platform">Watch the 4-min walkthrough</a>
+        </div>
+        <p class="hero__assurance">No card for the pilot · SOC 2 Type II · DAT and Truckstop connectors included</p>
+      </div>
+      <figure class="hero__figure">
+        <div class="board" role="img" aria-label="Animated Harborline board: loads move from open, to vetting, to covered while carrier checks pass">
+          <div class="board__head"><span>Board · today</span><span class="board__live"><i></i>Live · 14 open</span></div>
+          <div class="board__rows">
+            <div class="bload">
+              <span class="bload__code">HRB-4192</span>
+              <span class="status"><span class="st st--open">Open · 3 bids</span><span class="st st--vet">Vetting</span><span class="st st--cov">Covered</span></span>
+              <span class="bload__lane">Columbus, OH → Laredo, TX</span>
+              <span class="bload__meta">Dry van · 42,000 lbs</span>
+              <span class="bload__rate">$2,480</span>
+              <span class="bload__bar"><i></i></span>
+            </div>
+            <div class="bload">
+              <span class="bload__code">HRB-4188</span>
+              <span class="status"><span class="st st--open">Open · 5 bids</span><span class="st st--vet">Vetting</span><span class="st st--cov">Covered</span></span>
+              <span class="bload__lane">Memphis, TN → Atlanta, GA</span>
+              <span class="bload__meta">Reefer · 38 °F</span>
+              <span class="bload__rate">$1,140</span>
+              <span class="bload__bar"><i></i></span>
+            </div>
+            <div class="bload">
+              <span class="bload__code">HRB-4201</span>
+              <span class="status"><span class="st st--open">Open · 2 bids</span><span class="st st--vet">Vetting</span><span class="st st--cov">Covered</span></span>
+              <span class="bload__lane">Des Moines, IA → Denver, CO</span>
+              <span class="bload__meta">Flatbed · tarped</span>
+              <span class="bload__rate">$1,820</span>
+              <span class="bload__bar"><i></i></span>
+            </div>
+          </div>
+          <div class="board__vet">
+            <span class="board__mc">MC-148902</span>
+            <span class="vchk"><b aria-hidden="true">✓</b>Authority</span>
+            <span class="vchk"><b aria-hidden="true">✓</b>Insurance</span>
+            <span class="vchk"><b aria-hidden="true">✓</b>CSA</span>
+            <span class="board__time">≈ 30 s</span>
+          </div>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <section class="metrics" aria-label="Results">
+    <dl class="metrics__grid wrap">
+      <div class="metric"><dt>Median time to cover</dt><dd class="metric__value">22 min</dd><dd class="metric__note">down from 90 at pilot start</dd></div>
+      <div class="metric"><dt>Loads per dispatcher / day</dt><dd class="metric__value">3.1×</dd><dd class="metric__note">measured across 14 brokerages</dd></div>
+      <div class="metric"><dt>Loads moved last month</dt><dd class="metric__value">41,000</dd><dd class="metric__note">on Harborline boards</dd></div>
+      <div class="metric"><dt>Platform uptime</dt><dd class="metric__value">99.95%</dd><dd class="metric__note">rolling 12 months</dd></div>
+    </dl>
+  </section>
+
+  <section class="trust" aria-label="Customers">
+    <div class="trust__inner wrap">
+      <p class="trust__line">Moving 41,000 loads a month for brokerages in 14 states</p>
+      <ul class="trust__list">
+        <li><span class="trust__mark" aria-hidden="true"></span><span><strong>Kestrel Logistics</strong><small>Ohio · 38 trucks</small></span></li>
+        <li><span class="trust__mark" aria-hidden="true"></span><span><strong>Cardinal Freight Group</strong><small>Tennessee · 11 desks</small></span></li>
+        <li><span class="trust__mark" aria-hidden="true"></span><span><strong>Bayline Transport</strong><small>Texas · reefer</small></span></li>
+        <li><span class="trust__mark" aria-hidden="true"></span><span><strong>Tidewater Carriers</strong><small>Virginia · drayage</small></span></li>
+        <li><span class="trust__mark" aria-hidden="true"></span><span><strong>Ridgeway Brokerage</strong><small>Iowa · flatbed</small></span></li>
+        <li><span class="trust__mark" aria-hidden="true"></span><span><strong>Northfork Freight</strong><small>Minnesota · LTL</small></span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="features" id="platform">
+    <div class="features__inner wrap">
+      <div class="features__intro">
+        <span class="overline">The operations board</span>
+        <h2 class="h2">Four jobs a dispatcher does before 10 a.m.</h2>
+        <p class="lead">Each one used to live in a different tab, a spreadsheet, or somebody's memory. Harborline keeps them on one card per load, in the order the work actually happens.</p>
+        <a class="link" href="#pricing">Compare the plans →</a>
+      </div>
+      <div class="features__grid">
+        <article class="card">
+          <div class="card__head"><span class="card__index" aria-hidden="true">01</span><span class="tag">Coverage</span></div>
+          <h3 class="h3">Load triage board</h3>
+          <p class="body">Every board posting lands in one queue, deduped and priced against your last 90 days on the lane — not against a national average.</p>
+        </article>
+        <article class="card">
+          <div class="card__head"><span class="card__index" aria-hidden="true">02</span><span class="tag">Compliance</span></div>
+          <h3 class="h3">Carrier vetting in 30 seconds</h3>
+          <p class="body">Authority, insurance certificates, and CSA basics pulled live. Expired coverage blocks the rate confirmation instead of warning you afterwards.</p>
+        </article>
+        <article class="card">
+          <div class="card__head"><span class="card__index" aria-hidden="true">03</span><span class="tag">Paperwork</span></div>
+          <h3 class="h3">Rate confirmations that close</h3>
+          <p class="body">Send, e-sign, and file a rate con from the load card. The signed copy attaches to the load and the carrier packet at the same time.</p>
+        </article>
+        <article class="card">
+          <div class="card__head"><span class="card__index" aria-hidden="true">04</span><span class="tag">Margin</span></div>
+          <h3 class="h3">Detention captured, not forgiven</h3>
+          <p class="body">Arrival and departure stamps become accessorial line items automatically, so the $180 you used to write off gets invoiced.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="steps" id="vetting">
+    <div class="steps__inner wrap">
+      <div class="steps__head">
+        <div class="stack-8">
+          <span class="overline overline--dark">Onboarding</span>
+          <h2 class="steps__title">Live on a real load in one afternoon</h2>
+        </div>
+        <p class="steps__aside">No data migration project, no six-week statement of work. Read-only board access is enough to start.</p>
+      </div>
+      <ol class="steps__list">
+        <li><span class="steps__n">1</span><h3 class="h3">Connect your load board</h3><p>DAT or Truckstop credentials, read-only. Postings start flowing in under five minutes.</p></li>
+        <li><span class="steps__n">2</span><h3 class="h3">Import your carrier list</h3><p>CSV or API. We re-vet every MC number on import and flag the ones you should stop calling.</p></li>
+        <li><span class="steps__n">3</span><h3 class="h3">Cover your first load</h3><p>Quote, vet, confirm. Most pilots cover a real load on day one, with our onboarding lead on the call.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <div class="pricing__inner wrap">
+      <div class="pricing__head">
+        <div class="stack-12">
+          <span class="overline">Pricing</span>
+          <h2 class="h2">Per seat, no per-load fee</h2>
+          <p class="lead">Brokers already pay a percentage to everyone else in the chain. We charge for the desk, not the freight.</p>
+        </div>
+        <div class="toggle" role="group" aria-label="Billing period">
+          <button class="toggle__btn is-active" type="button" data-cycle="monthly" aria-pressed="true">Monthly</button>
+          <button class="toggle__btn" type="button" data-cycle="yearly" aria-pressed="false">Yearly −15%</button>
+        </div>
+      </div>
+      <div class="plans">
+        <article class="plan">
+          <h3 class="plan__name">Dispatch</h3>
+          <p class="plan__blurb">For a single desk covering up to 120 loads a month.</p>
+          <p class="plan__price"><strong data-monthly="$89" data-yearly="$76">$89</strong><span>per seat / month</span></p>
+          <p class="plan__note" data-monthly="Billed monthly · cancel anytime" data-yearly="Billed yearly · 15% off">Billed monthly · cancel anytime</p>
+          <ul class="plan__list">
+            <li>1 dispatcher seat</li>
+            <li>Load board triage</li>
+            <li>Carrier authority + insurance checks</li>
+            <li>Rate confirmations (e-sign)</li>
+          </ul>
+          <a class="btn btn--dark btn--block" href="#faq">Start 14-day pilot</a>
+        </article>
+        <article class="plan plan--featured">
+          <div class="plan__top"><h3 class="plan__name">Brokerage</h3><span class="plan__badge">Most picked</span></div>
+          <p class="plan__blurb">For teams of 3–20 running multiple lanes and shared carrier pools.</p>
+          <p class="plan__price"><strong data-monthly="$149" data-yearly="$127">$149</strong><span>per seat / month</span></p>
+          <p class="plan__note" data-monthly="Billed monthly · cancel anytime" data-yearly="Billed yearly · 15% off">Billed monthly · cancel anytime</p>
+          <ul class="plan__list">
+            <li>Unlimited dispatcher seats</li>
+            <li>Shared carrier pool + scorecards</li>
+            <li>Detention &amp; accessorial capture</li>
+            <li>QuickBooks and TMS sync</li>
+            <li>Named onboarding lead</li>
+          </ul>
+          <a class="btn btn--white btn--block" href="#faq">Start 14-day pilot</a>
+        </article>
+        <article class="plan">
+          <h3 class="plan__name">Network</h3>
+          <p class="plan__blurb">For multi-branch brokerages with their own compliance rules.</p>
+          <p class="plan__price"><strong>Custom</strong><span>quoted per branch</span></p>
+          <p class="plan__note">Annual agreement</p>
+          <ul class="plan__list">
+            <li>SSO + SCIM provisioning</li>
+            <li>Custom carrier vetting rules</li>
+            <li>Audit log export</li>
+            <li>99.95% uptime SLA</li>
+          </ul>
+          <a class="btn btn--dark btn--block" href="#faq">Talk to sales</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="quote" id="customers">
+    <div class="quote__inner wrap">
+      <blockquote class="quote__block">
+        <p class="quote__text">“We were spending the first ninety minutes of every morning retyping postings into spreadsheets. Harborline gave that morning back — and it caught two carriers whose insurance had lapsed in week one.”</p>
+        <footer class="quote__by">
+          <span class="quote__avatar" aria-hidden="true"></span>
+          <span class="quote__who">
+            <cite>Dana Whitfield</cite>
+            <span>Operations Director, Cardinal Freight Group</span>
+            <small>Nashville, TN · 11 dispatch desks</small>
+          </span>
+        </footer>
+      </blockquote>
+      <div class="lanes" role="img" aria-label="Animated lane map of Cardinal Freight Group's network out of Nashville, with morning retyping time falling from 90 to 22 minutes">
+        <div class="lanes__head"><span>Cardinal Freight · lane network</span><span class="lanes__chip">2 lapsed carriers caught · week 1</span></div>
+        <svg class="lanes__map" viewBox="0 0 400 260" aria-hidden="true" focusable="false">
+          <defs>
+            <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#E8E4DB" stroke-width="1"></path></pattern>
+            <path id="l1" d="M320 58 Q 290 100 240 128"></path>
+            <path id="l2" d="M240 128 Q 280 150 300 196"></path>
+            <path id="l3" d="M150 48 Q 150 100 168 144"></path>
+            <path id="l4" d="M168 144 Q 240 170 300 196"></path>
+            <path id="l5" d="M240 128 Q 150 190 64 228"></path>
+          </defs>
+          <rect width="400" height="260" fill="url(#grid)"></rect>
+          <use href="#l1" class="lane lane--live"></use>
+          <use href="#l2" class="lane lane--live"></use>
+          <use href="#l3" class="lane"></use>
+          <use href="#l4" class="lane lane--live"></use>
+          <use href="#l5" class="lane lane--live"></use>
+          <circle r="5" class="truck"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#l1"></mpath></animateMotion></circle>
+          <circle r="5" class="truck"><animateMotion dur="4s" begin="-1.5s" repeatCount="indefinite"><mpath href="#l2"></mpath></animateMotion></circle>
+          <circle r="5" class="truck"><animateMotion dur="6s" begin="-2s" repeatCount="indefinite"><mpath href="#l4"></mpath></animateMotion></circle>
+          <circle r="5" class="truck"><animateMotion dur="7s" begin="-3s" repeatCount="indefinite"><mpath href="#l5"></mpath></animateMotion></circle>
+          <circle cx="240" cy="128" r="10" class="hub-ring"><animate attributeName="r" values="8;22;8" dur="2.4s" repeatCount="indefinite"></animate><animate attributeName="opacity" values=".5;0;.5" dur="2.4s" repeatCount="indefinite"></animate></circle>
+          <circle cx="240" cy="128" r="7" class="node node--hub"></circle>
+          <circle cx="320" cy="58" r="5" class="node"></circle>
+          <circle cx="150" cy="48" r="5" class="node"></circle>
+          <circle cx="168" cy="144" r="5" class="node"></circle>
+          <circle cx="300" cy="196" r="5" class="node"></circle>
+          <circle cx="64" cy="228" r="5" class="node"></circle>
+          <text x="250" y="122" class="city city--hub">Nashville</text>
+          <text x="328" y="54" class="city">Columbus</text>
+          <text x="158" y="40" class="city">Des Moines</text>
+          <text x="104" y="150" class="city">Memphis</text>
+          <text x="308" y="214" class="city">Atlanta</text>
+          <text x="72" y="248" class="city">Laredo</text>
+        </svg>
+        <div class="lanes__bars">
+          <div class="lbar"><div class="lbar__top"><span>Morning retyping · before</span><strong>90 min</strong></div><span class="lbar__track"><i class="lbar__fill lbar__fill--before"></i></span></div>
+          <div class="lbar"><div class="lbar__top"><span>With Harborline</span><strong>22 min</strong></div><span class="lbar__track"><i class="lbar__fill lbar__fill--after"></i></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq" id="faq">
+    <div class="faq__inner wrap">
+      <div class="faq__intro">
+        <h2 class="h2">Before you ask</h2>
+        <p class="lead">Still unsure? The onboarding lead who would run your pilot answers these on a 20-minute call.</p>
+        <form class="form" id="pilotForm" action="#" method="post" novalidate="novalidate">
+          <h3 class="h3">Get the pilot brief</h3>
+          <label class="form__label" for="email">Work email</label>
+          <input class="form__input" id="email" name="email" type="email" inputmode="email" autocomplete="email" required="required" placeholder="dispatch@yourbrokerage.com" />
+          <button class="btn btn--dark btn--block" type="submit">Send the pilot brief</button>
+          <p class="form__note" id="formNote" role="status" aria-live="polite"></p>
+          <p class="form__fine">One email, no sequence.</p>
+        </form>
+      </div>
+      <div class="accordion">
+        <div class="acc">
+          <button class="acc__q" type="button" aria-expanded="true" aria-controls="faq-a1" id="faq-q1">Does Harborline replace our TMS?<span class="acc__sign" aria-hidden="true">–</span></button>
+          <div class="acc__a" id="faq-a1" role="region" aria-labelledby="faq-q1"><p>No. It sits in front of it. Harborline handles triage, vetting, and confirmations, then pushes the covered load into McLeod, Turvo, or AscendTMS through the sync you already pay for.</p></div>
+        </div>
+        <div class="acc">
+          <button class="acc__q" type="button" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">How fast is carrier vetting?<span class="acc__sign" aria-hidden="true">+</span></button>
+          <div class="acc__a" id="faq-a2" role="region" aria-labelledby="faq-q2" hidden><p>Authority, insurance certificates, and CSA basics resolve in about 30 seconds against FMCSA data. Expired coverage blocks the confirmation rather than warning you after the fact.</p></div>
+        </div>
+        <div class="acc">
+          <button class="acc__q" type="button" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">What happens to loads we lose?<span class="acc__sign" aria-hidden="true">+</span></button>
+          <div class="acc__a" id="faq-a3" role="region" aria-labelledby="faq-q3" hidden><p>They stay on the board as “not covered” with the quote history attached, so you can price the lane correctly the next time the shipper calls.</p></div>
+        </div>
+        <div class="acc">
+          <button class="acc__q" type="button" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">Is our carrier list portable?<span class="acc__sign" aria-hidden="true">+</span></button>
+          <div class="acc__a" id="faq-a4" role="region" aria-labelledby="faq-q4" hidden><p>Yes. Import and export are CSV or API, and the audit log export is included on every plan. Nothing you put in is held hostage.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer__grid wrap">
+    <div class="footer__brandcol">
+      <span class="footer__brand"><span class="mark" aria-hidden="true"></span>Harborline</span>
+      <p>Freight operations software for regional brokerages. Built in Columbus, Ohio by people who used to run the night desk.</p>
+      <small>Support answers in under 4 minutes · 6 a.m.–8 p.m. ET</small>
+    </div>
+    <div class="footer__col">
+      <h3>Product</h3>
+      <a href="#platform">Load triage</a>
+      <a href="#vetting">Carrier vetting</a>
+      <a href="#pricing">Rate confirmations</a>
+      <a href="#pricing">Detention capture</a>
+    </div>
+    <div class="footer__col">
+      <h3>Company</h3>
+      <a href="#customers">Customers</a>
+      <a href="#faq">Careers — 4 open</a>
+      <a href="#faq">Security</a>
+      <a href="#faq">Status</a>
+    </div>
+    <div class="footer__col">
+      <h3>Contact</h3>
+      <a href="tel:+16145550142">(614) 555-0142</a>
+      <a href="mailto:desk@harborline.com">desk@harborline.com</a>
+      <p>312 Marconi Blvd, Suite 400<br />Columbus, OH 43215</p>
+    </div>
+  </div>
+  <div class="footer__legal wrap">
+    <span>© 2026 Harborline Systems, LLC</span>
+    <span>Terms · Privacy · DPA · Accessibility (WCAG 2.2 AA)</span>
+  </div>
+</footer>
+
+<div class="dock" id="dock">
+  <div class="dock__copy"><strong>14-day pilot, 1 load</strong><span>Onboarding lead included</span></div>
+  <a class="btn btn--dark" href="#pricing">Start pilot</a>
+</div>
+
+<script src="js/main.js?v=2" defer="defer"></script>
+</body>
+</html>
